@@ -1,0 +1,11 @@
+body{
+    font-family: Montserrat;
+}
+.card:hover .card-txt> h1 , .card>.card-btn{
+ color: orangered;
+ transition: color linear .4s;
+}
+.card:hover a{
+    color: orangered;
+    transition: color linear .4s;
+   }

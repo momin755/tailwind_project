@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Project</title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--Daisy UI Tailwind CSS CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <!-- Tailwind CSS CDN Link -->
+   <script src="https://cdn.tailwindcss.com"></script>
+   <!-- Main CSS Link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="">
+    <!----------------------
+        Header Start
+     ------------------- -->
+   
+       <div class="header bg-bottom py-10 bg-gradient-to-r from-violet-200 via-violet-100 to-[#def5fd] from-15% via-35% to-50%">
+        <section class="container pb-48 mx-auto w-[90%] navbar">
+            <div class="flex-1">
+                <a href="#" class="text-4xl font-bold border-l-8 border-violet-800">Astrolus</a>
+            </div>
+            <div>
+                <ul class="menu menu-horizontal ">
+                    <li><a href="#" class="text-2xl font-bold hover:text-violet-600 hover:bg-transparent">Features</a></li>
+                    <li><a class="text-2xl font-bold hover:text-violet-600 hover:bg-transparent" href="#" c>Solution</a></li>
+                    <li><a class="text-2xl font-bold hover:text-violet-600 hover:bg-transparent" href="#">Reviews</a></li>
+                    <li><a class="text-2xl font-bold hover:text-violet-600 hover:bg-transparent" href="#">Premium</a></li>
+                </ul> 
+                <button class="font-bold text-white text-1xl btn bg-violet-600 rounded-3xl hover:scale-105 hover:bg-violet-600">Get Started</button>
+                
+            </div>
+            
+        </section>
+
+        <div class="banner">
+            <h1 class="text-6xl font-bold text-center">Shaping a world with <br> <span class="text-violet-600">reimagination.</span></h1>
+            <p class="mx-auto text-2xl font-light my-8 leading-10 text-center w-[70%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio incidunt nam itaque sed eius modi error totam sit illum. Voluptas doloribus asperiores quaerat aperiam. Quidem harum omnis beatae ipsum soluta!</p>
+
+            <div class="space-x-6 text-center button-style">
+                <button class="text-2xl font-medium font-bold text-white btn bg-violet-600 rounded-3xl hover:scale-105 hover:bg-violet-600">Get Started</button>
+                <button class="text-2xl font-medium font-bold border-none btn text-violet-600 rounded-3xl hover:scale-105 hover:bg-transparent">Get Started</button>
+            </div>
+        </div>
+       </div>
+     <!----------------------
+        Header End
+     ------------------- -->
+
+       <main>
+          <!-- --------------------
+      price text Start
+      ------------------------ -->
+       <div class="w-1/2 mx-auto my-20 price-text border-y-2">
+        <div class="flex justify-between py-6">
+            <div class="div ">
+                <h1 class="mb-2 text-2xl font-medium ">The lowest price</h1>
+            <p>Some text here</p>
+            </div>
+            <div class="div">
+                <h1 class="mb-2 text-2xl font-medium ">The lowest price</h1>
+            <p>The fastest on the market</p>
+            </div>
+            <div class="div">
+                <h1 class="mb-2 text-2xl font-medium ">The most loved</h1>
+            <p>Some text here</p>
+            </div>
+        </div>
+       </div>
+
+     <!-- --------------------
+      price text Start
+      ------------------------ -->
+
+     <!-- --------------------
+      image Slide Start
+      ------------------------ -->
+
+      <div class="container mx-auto image-slides">
+        <div class="grid justify-center grid-cols-6 my-20 align-middle images" >
+                <div class="grayscale hover:grayscale-0">
+                    <img class="w-auto h-12 mx-auto" src="images/microsoft.svg" alt="">
+                </div>
+                <div class="grayscale hover:grayscale-0"> <img class="w-auto h-12 mx-auto" src="images/google.svg" alt=""></div>
+            <div class="grayscale hover:grayscale-0"><img class="w-auto h-12 mx-auto" src="images/airbnb.svg" alt=""></div>
+            <div class="grayscale hover:grayscale-0">
+                <img class="w-auto h-12 mx-auto" src="images/google-cloud.svg" alt="">
+               </div>
+            <div class="grayscale hover:grayscale-0"><img  class="w-auto h-12 mx-auto" src="images/ge.svg" alt=""></div>
+          
+           
+           <div class="grayscale hover:grayscale-0"> <img class="w-auto h-12 mx-auto" src="images/netflix.svg" alt=""></div>
+          </div>
+      </div>
+     <!-- --------------------
+      image Slide End
+      ------------------------ -->
+
+     <!-- --------------------
+     Features Start
+      ------------------------ -->
+      <div class="container mx-auto w-[90%] my-16 features">
+        <i class="mb-4 text-3xl text-orange-600 fa-solid fa-wand-sparkles ms-3"></i>
+        <h1 class="text-5xl font-bold text-neutral-500">A technology-first <br> approach to payments and <br> finance</h1>
+        <p class="w-2/5 my-8 font-mono text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ad ipsum pariatur autem, fugit laborum in atque amet obcaecati? Nisi minima aspernatur, quidem nulla cupiditate nam consequatur eligendi magni adipisci.</p>
+      </div>
+     
+
+     <!-- --------------------
+      Features End
+      ------------------------ -->
+
+     <!-- --------------------
+      Card Start
+      ------------------------ -->
+      <div class="container w-[90%] mx-auto my-20 card-styles">
+        <div class="grid grid-cols-4 border rounded-xl card-design ">
+            <div class="px-8 py-10 border-r rounded-none hover:shadow-xl card">
+                <div class="card-img">
+                    <img class="w-20" src="images/4341025.png" alt="">
+                </div>
+                <div class="mt-10 card-txt">
+                    <h1 class="text-2xl font-medium ">First feature</h1>
+                    <p class="my-3">Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.</p>
+                    <div class="flex justify-between cart-btn">
+                        <a href="" class="font-medium ">Read More</a>
+                        <a class="" href=""><i class="fa-solid fa-arrow-right "></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="px-8 py-10 border-r rounded-none hover:shadow-xl card">
+                <div class="card-img">
+                    <img  class="w-20" src="images/4341134.png" alt="">
+                </div>
+                <div class="mt-10 card-txt">
+                    <h1 class="text-2xl font-medium ">First feature</h1>
+                    <p class="my-3">Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.</p>
+                    <div class="flex justify-between cart-btn">
+                        <a href="" class="font-medium ">Read More</a>
+                        <a class="" href=""><i class="fa-solid fa-arrow-right "></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="px-8 py-10 border-r rounded-none hover:shadow-xl card">
+                <div class="card-img">
+                    <img  class="w-20" src="images/4341139.png" alt="">
+                </div>
+                <div class="mt-10 card-txt">
+                    <h1 class="text-2xl font-medium ">First feature</h1>
+                    <p class="my-3">Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.</p>
+                    <div class="flex justify-between cart-btn">
+                        <a href="" class="font-medium ">Read More</a>
+                        <a class="" href=""><i class="fa-solid fa-arrow-right "></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="px-8 py-10 border-r rounded-none hover:shadow-xl card">
+                <div class="card-img">
+                    <img  class="w-20" src="images/4341160.png" alt="">
+                </div>
+                <div class="mt-10 card-txt">
+                    <h1 class="text-2xl font-medium ">First feature</h1>
+                    <p class="my-3">Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.</p>
+                    <div class="flex justify-between cart-btn">
+                        <a href="" class="font-medium ">Read More</a>
+                        <a class="" href=""><i class="fa-solid fa-arrow-right "></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+     <!-- --------------------
+      Nuxt Start
+      ------------------------ -->
+      
+      <section class="grid grid-cols-2 nuxt w-[90%] mx-auto gap-x-16">
+        <div>
+            <i class="text-3xl text-blue-400 fa-solid fa-circle-nodes"></i>
+            <h1 class="mb-8 text-5xl font-bold">Nuxt development is <br> carried out by passionate <br> developers</h1>
+            <p class="text-2xl">Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at? Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.
+                <br><br>
+                Vitae error, quaerat officia delectus voluptatibus explicabo quo pariatur impedit, at reprehenderit aliquam a ipsum quas voluptatem. Quo pariatur asperiores eum amet.</p>
+                <div class="flex items-center gap-5 my-10">
+                    <div class="w-16 h-16 rounded-full bg-[#e0e7ff]">
+                        <i class="mx-4 my-2 text-4xl text-[#6366f1] fa-solid fa-envelope-open-text"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-semibold">Chat Anytime</h1>
+                        <p class="mt-2 uppercase text-slate-500">Asperiores nemo possimus nesciunt quam mollitia.</p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-5 my-10">
+                    <div class="w-16 h-16 rounded-full bg-[#ccfbf1]">
+                        <i class="mx-4 my-3 text-4xl text-[#0d9488] fa-solid fa-location-dot"></i>
+                        
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-semibold">Real Time Location</h1>
+                        <p class="mt-2 uppercase text-slate-500">Asperiores nemo possimus nesciunt quam mollitia.</p>
+                    </div>
+                </div>
+        </div>
+        <div class="my-auto ">
+            <img class="w-full mx-auto" src="images/pie.svg" alt="">
+        </div>
+      </section>
+     <!-- --------------------
+      Nuxt End
+      ------------------------ -->
+      
+      
+     <!-- --------------------
+      solution Start
+      ------------------------ -->
+      <section class="solution py-40 bg-gradient-to-r from-violet-300 to-[#dbf1fd] bg-center ">
+        <div class="flex items-center justify-center -space-x-2">
+            <img class="w-20 h-20 rounded-full" src="images/avatar-1.webp" alt="">
+            <img class="w-24 h-24 rounded-full" src="images/avatar-2.webp" alt="">
+            
+            <img class="rounded-full w-28 h-28" src="images/avatar-3.webp" alt="">
+            <img class="w-24 h-24 rounded-full" src="images/avatar-4.webp" alt="">
+            <img class="w-20 h-20 rounded-full" src="images/avatar.webp" alt="">
+
+            
+          
+        </div>
+        <h1 class="my-10 text-6xl font-bold text-center">Get Started now</h1>
+        <p class="mb-10 text-2xl font-medium text-center">Be part of millions people around the world using tailus in <br>
+             modern User Interfaces.</p>
+             <div class="space-x-6 text-center button-style">
+                <button class="text-2xl font-medium font-bold text-white border-0 btn bg-violet-600 rounded-3xl hover:scale-105 hover:bg-violet-600">Get Started</button>
+                <button class="text-2xl font-medium font-bold border-none bg-slate-200 btn text-violet-600 rounded-3xl hover:scale-105 hover:bg-transparent">More About</button>
+            </div>
+      </section>
+      
+     <!-- --------------------
+      solution End
+      ------------------------ -->
+      
+      
+     <!-- --------------------
+      Card 2 Design Start
+      ------------------------ -->
+      <div class="card-desing w-[90%] mx-auto">
+        <section class="grid grid-cols-3 my-10 space-x-4 card-2">
+            <div class="p-10 shadow-xl card bg-base-100 ">
+                <figure class="rounded-xl">
+                  <img class="w-auto overflow-hidden transition-all rounded-lg h-96 hover:scale-105 hover:rounded-lg"
+                    src="images/photo-1661749711934-492cd19a25c3.jfif"
+                    alt="Shoes" />
+                </figure>
+                <div class="p-0 card-body">
+                  <h2 class="pt-8 text-4xl card-title ">De fuga fugiat <br>
+                    lorem ispum <br> laboriosam <br> expedita.</h2>
+                  <p class="py-6 text-2xl text-slate-400">Voluptates harum aliquam totam, doloribus eum impedit atque! Temporibus...</p>
+                  <div class="btns">
+                    <a href="" class="text-violet-600">Read More</a>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="p-10 shadow-xl card bg-base-100 ">
+                <figure class="rounded-xl">
+                  <img class="w-auto overflow-hidden transition-all rounded-lg h-96 hover:scale-105 hover:rounded-lg"
+                    src="images/photo-1620121692029-d088224ddc74.jfif"
+                    alt="Shoes" />
+                </figure>
+                <div class="p-0 card-body">
+                  <h2 class="pt-8 text-4xl card-title ">De fuga fugiat <br>
+                    lorem ispum <br> laboriosam <br> expedita.</h2>
+                  <p class="py-6 text-2xl text-slate-400">Voluptates harum aliquam totam, doloribus eum impedit atque! Temporibus...</p>
+                  <div class="btns">
+                    <a href="" class="text-violet-600">Read More</a>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="p-10 shadow-xl card bg-base-100 ">
+                <figure class="rounded-xl">
+                  <img class="w-auto overflow-hidden transition-all rounded-lg h-96 hover:scale-105 hover:rounded-lg"
+                    src="images/photo-1491895200222-0fc4a4c35e18.jfif"
+                    alt="Shoes" />
+                </figure>
+                <div class="p-0 card-body">
+                  <h2 class="pt-8 text-4xl card-title" >De fuga fugiat <br>
+                    lorem ispum <br> laboriosam <br> expedita.</h2>
+                  <p class="py-6 text-2xl text-slate-400">Voluptates harum aliquam totam, doloribus eum impedit atque! Temporibus...</p>
+                  <div class="btns">
+                    <a href="" class="text-violet-600">Read More</a>
+                  </div>
+                  
+                </div>
+              </div>
+          </section>
+      </div>
+      
+     <!-- --------------------
+      Card End
+      ------------------------ -->
+      
+      
+
+    </main>
+
+    <footer class="bg-base-300 ">
+        <footer  class=" w-[90%] mx-auto p-10 footer text-base-content">
+            <nav>
+              <h6 class="footer-title">Services</h6>
+              <a class="link link-hover">Branding</a>
+              <a class="link link-hover">Design</a>
+              <a class="link link-hover">Marketing</a>
+              <a class="link link-hover">Advertisement</a>
+            </nav>
+            <nav>
+              <h6 class="footer-title">Company</h6>
+              <a class="link link-hover">About us</a>
+              <a class="link link-hover">Contact</a>
+              <a class="link link-hover">Jobs</a>
+              <a class="link link-hover">Press kit</a>
+            </nav>
+            <nav>
+              <h6 class="footer-title">Social</h6>
+              <div class="grid grid-flow-col gap-4">
+                <a>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    class="fill-current">
+                    <path
+                      d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
+                  </svg>
+                </a>
+                <a>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    class="fill-current">
+                    <path
+                      d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
+                  </svg>
+                </a>
+                <a>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    class="fill-current">
+                    <path
+                      d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
+                  </svg>
+                </a>
+              </div>
+            </nav>
+          </footer>
+    </footer>
+   
+</body>
+</html>
